@@ -42,10 +42,14 @@ class handler(BaseHTTPRequestHandler):
             body = {"message": "rule error, please use 'created'/'updated'"}
         else:
             data = json.loads((ROOT / "all.json").read_text(encoding="utf-8"))
-            articles = [
-                {k: a.get(k) for k in FIELDS}
-                for a in data.get("article_data", [])
-            ]
+            articles = []
+            for a in data.get("article_data", []):
+                item = {k: a.get(k) for k in FIELDS}
+                # FCL 输出没有 updated 字段，主题卡片会渲染「更新于 {updated}」，
+                # 留空会显示成空标签，用 created 回填
+                if not item.get("updated"):
+                    item["updated"] = item.get("created")
+                articles.append(item)
             start, end, message = start_end_check(start, end, len(articles))
             if message:
                 body = {"message": message}

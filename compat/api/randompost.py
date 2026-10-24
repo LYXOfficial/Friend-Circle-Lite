@@ -19,7 +19,13 @@ class handler(BaseHTTPRequestHandler):
 
         try:
             data = json.loads((ROOT / "all.json").read_text(encoding="utf-8"))
-            articles = [{k: a.get(k) for k in FIELDS} for a in data.get("article_data", [])]
+            articles = []
+            for a in data.get("article_data", []):
+                item = {k: a.get(k) for k in FIELDS}
+                # 同 all.py：updated 缺失时用 created 回填，避免「更新于」空标签
+                if not item.get("updated"):
+                    item["updated"] = item.get("created")
+                articles.append(item)
             if num < 1:
                 body = {"message": "param 'num' error"}
             elif num == 1:

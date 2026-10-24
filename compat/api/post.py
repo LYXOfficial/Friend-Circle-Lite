@@ -47,7 +47,7 @@ class handler(BaseHTTPRequestHandler):
                         "title": a.get("title"),
                         "link": a.get("link"),
                         "created": a.get("created"),
-                        "updated": a.get("updated"),
+                        "updated": a.get("updated") or a.get("created"),
                     }
                 )
 
