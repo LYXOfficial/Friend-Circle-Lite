@@ -1,26 +1,6 @@
 {
  "friends": [
   {
-   "name": "Next.js",
-   "link": "https://nextjs.org",
-   "avatar": "https://img.0v0.my/2024/08/31/66d2ed6d51c58.png"
-  },
-  {
-   "name": "React",
-   "link": "https://zh-hans.react.dev",
-   "avatar": "https://img.0v0.my/2024/08/31/66d306faee01b.webp"
-  },
-  {
-   "name": "Node.js",
-   "link": "https://nodejs.org",
-   "avatar": "https://img.0v0.my/2026/10/18/77e5d0fe1977f.jpg"
-  },
-  {
-   "name": "Ariasakaの小窝",
-   "link": "https://blog.yaria.top",
-   "avatar": "https://img.0v0.my/2025/01/24/679335e1bf5b4.jpg"
-  },
-  {
    "name": "张洪Heo",
    "link": "https://blog.zhheo.com",
    "avatar": "https://img.0v0.my/2024/09/03/66d683a88d9ba.png"
