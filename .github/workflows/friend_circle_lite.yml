@@ -141,6 +141,32 @@ jobs:
         git commit -m "⏱️ $(date +"%Y年%m月%d日-%H时%M分") GitHub Actions定时更新"
         git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:${{ env.PAGE_BRANCH }}
 
+    - name: Point domain at new deployment
+      continue-on-error: true  # 别名失败不影响数据发布，下次爬取会重试
+      env:
+        VERCEL_TOKEN: ${{ secrets.VERCEL_DEPLOY_TOKEN }}
+      run: |
+        TEAM="team_YvQSgqL6B9P5I4AqSeCJVTRz"
+        PROJ="friend-circle-lite"
+        # Vercel API 不支持把生产分支设为 page（只能用仓库默认分支 main），
+        # page 推送只会生成 preview 部署；这里等最新构建 READY 后把域名指过去
+        sleep 20
+        DID=""
+        for i in $(seq 1 30); do
+          OUT=$(curl -sf -H "Authorization: Bearer $VERCEL_TOKEN" \
+            "https://api.vercel.com/v6/deployments?teamId=$TEAM&project=$PROJ&limit=1") || { sleep 5; continue; }
+          OUT=$(echo "$OUT" | python3 -c "import json,sys; d=json.load(sys.stdin)['deployments'][0]; print(d['uid'] if d['state']=='READY' else '')")
+          if [ -n "$OUT" ]; then DID="$OUT"; break; fi
+          sleep 5
+        done
+        if [ -n "$DID" ]; then
+          curl -sf -X POST -H "Authorization: Bearer $VERCEL_TOKEN" -H "Content-Type: application/json" \
+            "https://api.vercel.com/v2/deployments/$DID/aliases?teamId=$TEAM" \
+            -d '{"alias":"fcircle.yaria.top"}' >/dev/null && echo "fcircle.yaria.top -> $DID"
+        else
+          echo "等待部署超时，域名保持上一次指向"
+        fi
+
     - name: Delete Workflow Runs
       uses: Mattraks/delete-workflow-runs@v2
       with:
