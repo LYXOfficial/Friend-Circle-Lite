@@ -80,6 +80,10 @@ jobs:
       run: |
         mkdir pages
         cp -r main ./static/edgeone.json ./static/_headers ./static/index.html ./static/readme.md ./static/favicon.ico ./static/bg-light.webp ./static/bg-dark.webp all.json link.json errors.json pages/
+        # 兼容层：旧友圈 API（/all /post /randompost /version 等）的 serverless 函数
+        # 与重写规则，随静态数据一起发布；version.txt 供 /version 接口读取
+        cp -r ./compat/api ./compat/vercel.json pages/
+        grep -m1 -oP '(?<=## \[)[0-9.]+' CHANGELOG.md > pages/version.txt || echo "2.1.0" > pages/version.txt
 
     - name: Publish static assets to branches
       run: |

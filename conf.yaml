@@ -1,89 +1,55 @@
-# 调试开关
-# 说明：默认关闭。开启后，程序结束前会全量打印 SQLite 缓存表结构与所有数据，并保守清理核心表残留旧字段。
-# 支持环境变量 FCL_DEBUG=1 覆盖此配置。
+# Ariasaka 的友圈配置（从旧 hexo-circle-of-friends 迁移）
+# 旧部署用 LeanCloud 存数据，已停服；本版数据落在 SQLite（Action artifact 持久化）。
+
 debug: false
 
-# 爬虫相关配置
-# 说明：从友链 JSON 中读取站点列表，抓取各站点 RSS 文章，并生成 all.json。
-#   enable:        是否启用爬虫
-#   json_url:      友链 JSON 地址，仅支持网络地址
-#   article_count: 每个站点最多抓取的文章数量
 spider_settings:
   enable: true
-  json_url: "https://blog.liushen.fun/friend.json"
+  # 友链列表快照：从博客后端 /get/flink/flinks 导出（groups+links → friends 数组）。
+  # 博客上友链有增删后，需要重新导出并覆盖仓库根目录的 friend.json。
+  json_url: "https://raw.githubusercontent.com/LYXOfficial/Friend-Circle-Lite/main/friend.json"
   article_count: 5
 
-# 代理配置
-# 说明：用于友链检测和 RSS 抓取。程序会先直连，请求失败且配置了代理时自动走代理。
-#   proxy_url: 代理地址涉及一定违规风险和隐私风险，请尽量不要写入配置文件。
-#              推荐在仓库环境变量 PROXY_URL 中配置，并让此处保持为空。
-#              推荐格式为代理前缀，例如 https://proxy.example.com/
-#              程序会自动拼接为 https://proxy.example.com/https://example.com/feed.xml
-#              如需自行搭建代理，可参考：https://blog.liushen.fun/posts/dd89adc9/
-#              兼容高级格式 https://proxy.example.com?url={url}，但普通反代场景不推荐这样写。
-#              留空则不使用代理。
 proxy_settings:
+  # GH Actions 美国出口直连即可，不需要代理
   proxy_url: ""
 
-# 数据合并配置
-# 说明：合并多个数据源的结果，比如国内和国外两条线路各自运行后的 all.json、link.json、errors.json。
-#   enable:                是否启用数据合并
-#   remote_base_url:       远程数据源基础 URL，会自动拼接 /all.json、/link.json、/errors.json
-#   merge_article_data:    是否合并友圈文章数据
-#   merge_link_check_data: 是否合并友链可达性数据
 merge_settings:
   enable: false
-  remote_base_url: "https://fc.liushen.fun"
+  remote_base_url: ""
   merge_article_data: true
   merge_link_check_data: true
 
-# 友链可达性检测配置
-# 说明：友圈抓取依赖此检测结果，因此该检测始终启用。旧配置中的 link_check.enable 会被兼容读取但不再生效。
-#   max_age_hours:         同一友链检测结果缓存时间，默认 24 小时
-#   timeout:               单次网页请求超时时间
-#   max_workers:           并发检测数量
-#   status_api_url:        兜底状态码 API；API-only 结果只用于可达性展示，不参与 RSS 抓取
-#   enable_backlink_check: 是否检测友链页是否包含你的站点链接
-#   author_url:            你的站点域名，用于反链检测，建议只填写域名
 link_check:
   max_age_hours: 24
   timeout: 15
   max_workers: 10
   status_api_url: "https://v2.xxapi.cn/api/status?url={url}"
-  enable_backlink_check: true
-  author_url: "blog.liushen.fun"
+  # 旧部署靠爬自己的友链页发现友链，没有反链检测；关掉省一轮对每个友链页的请求
+  enable_backlink_check: false
+  author_url: "blog.yaria.top"
 
-# 邮件推送功能配置，暂未实现，等待后续开发
-# 说明：每次运行后向指定邮箱推送所有友链文章更新。
+# 邮件功能不开（没配 SMTP 密钥），避免 Action 因缺 SMTP_PWD 报错
 email_push:
   enable: false
-  to_email: recipient@example.com
-  subject: "今天的 RSS 订阅更新"
-  body_template: "rss_template.html"
+  to_email: ""
+  subject: ""
+  body_template: ""
 
-# 邮件 issue 订阅功能配置
-# 说明：从 GitHub issue 中提取订阅邮箱，并推送你自己站点的新文章。
 rss_subscribe:
-  enable: true
-  github_username: willow-god
+  enable: false
+  github_username: LYXOfficial
   github_repo: Friend-Circle-Lite
-  your_blog_url: https://blog.liushen.fun/
+  your_blog_url: "https://blog.yaria.top/"
   email_template: "./push_templates/default.html"
   website_info:
-    title: "清羽飞扬"
+    title: ""
 
-# SMTP 配置
-# 说明：用于上方邮件相关功能。如果不使用邮件功能，可关闭 email_push 和 rss_subscribe。
 smtp:
-  email: notify@liushen.fun
-  server: smtp.exmail.qq.com
+  email: ""
+  server: ""
   port: 465
   use_tls: true
 
-# 特殊 RSS 地址指定
-# 说明：用于指定特殊 RSS 地址，比如 B 站专栏等不常见 RSS 地址后缀。可以置空，但不要删除此项。
-specific_RSS:
-  - name: "阮一峰"
-    url: "http://feeds.feedburner.com/ruanyifeng"
-  # - name: "无名小栈"
-  #   url: "https://blog.imsyy.top/rss.xml"
+# 特殊 RSS 后缀（旧配置没有自定义项，保持空数组）
+specific_RSS: []

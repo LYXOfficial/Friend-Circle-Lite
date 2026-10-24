@@ -1,0 +1,644 @@
+{
+ "friends": [
+  {
+   "name": "Next.js",
+   "link": "https://nextjs.org",
+   "avatar": "https://img.0v0.my/2024/08/31/66d2ed6d51c58.png"
+  },
+  {
+   "name": "React",
+   "link": "https://zh-hans.react.dev",
+   "avatar": "https://img.0v0.my/2024/08/31/66d306faee01b.webp"
+  },
+  {
+   "name": "Node.js",
+   "link": "https://nodejs.org",
+   "avatar": "https://img.0v0.my/2026/10/18/77e5d0fe1977f.jpg"
+  },
+  {
+   "name": "Ariasakaの小窝",
+   "link": "https://blog.yaria.top",
+   "avatar": "https://img.0v0.my/2025/01/24/679335e1bf5b4.jpg"
+  },
+  {
+   "name": "张洪Heo",
+   "link": "https://blog.zhheo.com",
+   "avatar": "https://img.0v0.my/2024/09/03/66d683a88d9ba.png"
+  },
+  {
+   "name": "小冰博客",
+   "link": "https://zfe.space",
+   "avatar": "https://img.0v0.my/2026/10/18/f232b2eb52ceb.png"
+  },
+  {
+   "name": "贰猹的小窝",
+   "link": "https://noionion.top",
+   "avatar": "https://img.0v0.my/2026/10/18/56e80f0205c8c.jpg"
+  },
+  {
+   "name": "轻笑Chuckle",
+   "link": "https://www.qcqx.cn",
+   "avatar": "https://img.0v0.my/2024/09/01/66d3c12326139.png"
+  },
+  {
+   "name": "安知鱼",
+   "link": "https://blog.anheyu.com",
+   "avatar": "https://img.0v0.my/2026/10/18/dca59c743402f.jpg"
+  },
+  {
+   "name": "Redish101 Blog",
+   "link": "https://blog.redish101.top",
+   "avatar": "https://img.0v0.my/2025/01/24/67933e79d57bf.jpg"
+  },
+  {
+   "name": "山岳库博",
+   "link": "https://kmar.top",
+   "avatar": "https://img.0v0.my/2026/10/18/97527a7e1864a.png"
+  },
+  {
+   "name": "Akilar",
+   "link": "https://akilar.top",
+   "avatar": "https://img.0v0.my/2024/09/03/66d6839113cb3.png"
+  },
+  {
+   "name": "杜老师说",
+   "link": "https://dusays.com",
+   "avatar": "https://img.0v0.my/2026/10/18/51d2edd4f7def.png"
+  },
+  {
+   "name": "CyanFalse's Weblog",
+   "link": "https://blog.eurekac.cn",
+   "avatar": "https://img.0v0.my/2026/10/18/8f3a5766c3d1e.png"
+  },
+  {
+   "name": "纸鹿摸鱼处",
+   "link": "https://blog.zhilu.cyou",
+   "avatar": "https://img.0v0.my/2024/07/12/669123b22d8a8.png"
+  },
+  {
+   "name": "Tianli",
+   "link": "https://blog.tianli0.top",
+   "avatar": "https://img.0v0.my/2024/09/01/66d3c0d9dd08d.png"
+  },
+  {
+   "name": "ImkenのBlog",
+   "link": "https://new-blog.imken.moe",
+   "avatar": "https://img.0v0.my/2026/10/18/3861afe448df6.jpg"
+  },
+  {
+   "name": "朽丘秋雨",
+   "link": "https://koxiuqiu.cn",
+   "avatar": "https://cdn.koxiuqiu.cn/koxiuqiu/img/favicon.webp"
+  },
+  {
+   "name": "Walter_Fang",
+   "link": "https://blog.walterfang.site",
+   "avatar": "https://img.0v0.my/2024/10/02/66fcf783329ad.webp"
+  },
+  {
+   "name": "懋和道人",
+   "link": "https://blog.dao.js.cn",
+   "avatar": "https://img.0v0.my/2026/10/18/38dfd0a7cbd7a.webp"
+  },
+  {
+   "name": "Christina",
+   "link": "https://blog.sfkm.me",
+   "avatar": "https://img.0v0.my/2026/10/18/56173cd2dce17.jpg"
+  },
+  {
+   "name": "天翔TNXGの空间站",
+   "link": "https://tnxg.moe",
+   "avatar": "https://img.0v0.my/2025/04/26/680c5512e5838.png"
+  },
+  {
+   "name": "梦溯·镜影",
+   "link": "https://yumetsuki.moe",
+   "avatar": "https://img.0v0.my/2025/04/26/680c487c6f621.png"
+  },
+  {
+   "name": "Fgaoxing",
+   "link": "https://www.yt-blog.top",
+   "avatar": "https://img.0v0.my/2026/10/18/d1c528041d5fb.webp"
+  },
+  {
+   "name": "Emnasop's Blog",
+   "link": "https://emnasop.cn",
+   "avatar": "https://img.0v0.my/2026/10/18/5c9ec1d6a03c2.webp"
+  },
+  {
+   "name": "语景小站",
+   "link": "https://rainview.net",
+   "avatar": "https://img.0v0.my/2026/10/18/9bcd0fc20c657.png"
+  },
+  {
+   "name": "DannyFeng的小站",
+   "link": "https://dannyfeng.top",
+   "avatar": "https://img.0v0.my/2026/07/09/cd072b6e7ae17.webp"
+  },
+  {
+   "name": "鹊楠の小窝",
+   "link": "https://blog.quenan.cn",
+   "avatar": "https://img.0v0.my/2024/09/01/66d3c620db839.png"
+  },
+  {
+   "name": "煮雪话河山",
+   "link": "https://blog.cent1pedee.top",
+   "avatar": "https://img.0v0.my/2026/10/18/734ab2c34c9bf.jpg"
+  },
+  {
+   "name": "June's Blog",
+   "link": "https://blog.june-pj.cn",
+   "avatar": "https://img.0v0.my/2024/09/01/66d3c2c20f5ae.png"
+  },
+  {
+   "name": "梦落の小屋",
+   "link": "https://blog.dreamfall.cn",
+   "avatar": "https://img.0v0.my/2024/09/01/66d3c31569b87.jpg"
+  },
+  {
+   "name": "清羽飞扬",
+   "link": "https://blog.liushen.fun",
+   "avatar": "https://blog.liushen.fun/info/avatar.ico"
+  },
+  {
+   "name": "葱苓小筑",
+   "link": "https://blog.ciraos.top",
+   "avatar": "https://files.seeusercontent.com/2026/02/28/Vxb1/avatar2.avif"
+  },
+  {
+   "name": "Marcus",
+   "link": "https://blog.marcus-zh.top",
+   "avatar": "https://img.0v0.my/2024/09/01/66d3c43739942.jpg"
+  },
+  {
+   "name": "Liynwの博客儿",
+   "link": "https://blog.liynw.com",
+   "avatar": "https://img.0v0.my/2026/10/18/ab9e0c9e7b38a.webp"
+  },
+  {
+   "name": "听风",
+   "link": "https://blog.ifeng.asia",
+   "avatar": "https://img.0v0.my/2025/04/26/680c47f515967.jpg"
+  },
+  {
+   "name": "Pinpe 的云端",
+   "link": "https://pinpe.top",
+   "avatar": "https://img.0v0.my/2026/10/18/2f3f09166db18.jpg"
+  },
+  {
+   "name": "微霞",
+   "link": "https://yuuu.org",
+   "avatar": "https://img.0v0.my/2026/10/18/3fece77fade75.webp"
+  },
+  {
+   "name": "花生莲子粥",
+   "link": "https://blog.hslzz.cn",
+   "avatar": "https://img.0v0.my/2025/04/26/680c47b57859f.png"
+  },
+  {
+   "name": "安小歪",
+   "link": "https://blog.anxw.cn",
+   "avatar": "https://img.0v0.my/2026/10/18/35b4a14a53909.jpg"
+  },
+  {
+   "name": "苏阳～♡",
+   "link": "https://twis.uk",
+   "avatar": "https://img.0v0.my/2025/04/27/680dd7725c9b5.png"
+  },
+  {
+   "name": "小涵QwQ",
+   "link": "https://github.com/yuhan2680",
+   "avatar": "https://img.0v0.my/2025/04/27/680de1815fd36.jpg"
+  },
+  {
+   "name": "前尘小筑",
+   "link": "https://mnchen.cn",
+   "avatar": "https://img.0v0.my/2026/10/18/619d56a5f7585.jpg"
+  },
+  {
+   "name": "LeonXieの小窝",
+   "link": "https://www.leonxie.cn",
+   "avatar": "https://img.0v0.my/2026/10/18/2257ece7965d9.jpg"
+  },
+  {
+   "name": "Admibrill",
+   "link": "https://blog.qyadbr.top",
+   "avatar": "https://img.0v0.my/2026/10/18/7b4f382156c0d.png"
+  },
+  {
+   "name": "Android",
+   "link": "https://android99.com",
+   "avatar": "https://img.0v0.my/2025/12/08/fc87d44678e5a.webp"
+  },
+  {
+   "name": "elaina",
+   "link": "https://blog.unenter.cn",
+   "avatar": "https://img.0v0.my/2026/10/18/9d6eeae21222e.png"
+  },
+  {
+   "name": "方寻",
+   "link": "https://finding.is-cool.dev",
+   "avatar": "https://img.0v0.my/2026/10/18/20afe34f74baf.jpg"
+  },
+  {
+   "name": "Silvaire",
+   "link": "https://qwq.blue",
+   "avatar": "https://img.0v0.my/2026/10/18/59913bd846dc7.png"
+  },
+  {
+   "name": "YuanRetro",
+   "link": "https://yuanshen.dev",
+   "avatar": "https://img.0v0.my/2025/12/28/f14007896624b.webp"
+  },
+  {
+   "name": "栖童の小站",
+   "link": "https://blog.linux-qitong.top",
+   "avatar": "https://img.0v0.my/2025/04/26/680c48a0e15ac.jpg"
+  },
+  {
+   "name": "一碗饭blog",
+   "link": "https://yiwan.fan",
+   "avatar": "https://img.0v0.my/2026/10/18/f2c1242bde6f5.webp"
+  },
+  {
+   "name": "Teror的客栈",
+   "link": "https://blog.trfox.top",
+   "avatar": "https://img.0v0.my/2026/10/18/6f5235ebefaa5.jpg"
+  },
+  {
+   "name": "咕咕云梦泽",
+   "link": "https://blog.pai233.top",
+   "avatar": "https://img.0v0.my/2026/10/18/154c9a19b5fdb.jpg"
+  },
+  {
+   "name": "小康博客",
+   "link": "https://www.antmoe.com",
+   "avatar": "https://npm.elemecdn.com/kang-static@latest/avatar.jpg"
+  },
+  {
+   "name": "BaofengのBlog",
+   "link": "https://blog.bao-feng.top",
+   "avatar": "https://img.0v0.my/2024/09/01/66d3c666972a6.png"
+  },
+  {
+   "name": "HiPeach",
+   "link": "https://blog.opeach.cn",
+   "avatar": "https://npm.elemecdn.com/opicture@1.0.0/main/avatar.webp"
+  },
+  {
+   "name": "咖啡豆子coffee的小站",
+   "link": "https://blog.kfdzcoffee.cn",
+   "avatar": "https://img.0v0.my/2026/10/18/e87d08fdf40b5.png"
+  },
+  {
+   "name": "Dale's Blog",
+   "link": "https://www.dalechu.cn",
+   "avatar": "https://img.0v0.my/2026/10/18/44074b0977398.png"
+  },
+  {
+   "name": "晴雀堂",
+   "link": "https://blog.verynb.net",
+   "avatar": "https://blog.verynb.me/img/author.jpg"
+  },
+  {
+   "name": "MqyGalaxy|Blog",
+   "link": "https://blog.moeqy.com",
+   "avatar": "https://img.0v0.my/2026/10/18/825dbe78e63b9.webp"
+  },
+  {
+   "name": "Yh的站",
+   "link": "https://yhorz.cc",
+   "avatar": "https://img.0v0.my/2026/10/18/4d8788ab156ba.png"
+  },
+  {
+   "name": "梦想之都",
+   "link": "https://hexo.dreamerhe.cn",
+   "avatar": "https://img.0v0.my/2026/10/18/311b8db6becc3.png"
+  },
+  {
+   "name": "Mycpen",
+   "link": "https://blog.cpen.top",
+   "avatar": "https://img.0v0.my/2024/09/01/66d3c37e073b1.png"
+  },
+  {
+   "name": "wsbの博客",
+   "link": "https://wsbblog.cn",
+   "avatar": "https://img.0v0.my/2023/01/20/63ca729aeb5ef.png"
+  },
+  {
+   "name": "繁華如夢",
+   "link": "https://holyghostf.github.io",
+   "avatar": "https://img.0v0.my/2026/10/18/d9a2bf3c87aef.jpg"
+  },
+  {
+   "name": "小智の空间站",
+   "link": "https://blog.cuixinyu.com",
+   "avatar": "https://img.0v0.my/2024/09/01/66d3c74ae577c.png"
+  },
+  {
+   "name": "tinsir888's blog",
+   "link": "https://tinsir888.github.io",
+   "avatar": "https://img.0v0.my/2026/10/18/cd5807c0fa59d.jpg"
+  },
+  {
+   "name": "你所不知道的物语；",
+   "link": "https://hitagi.icu",
+   "avatar": "https://img.0v0.my/2026/10/18/660d50b8a7a71.jpg"
+  },
+  {
+   "name": "adguy",
+   "link": "https://adguy.top",
+   "avatar": "https://img.0v0.my/2026/10/18/f3fc98c00be36.webp"
+  },
+  {
+   "name": "南方嘉木",
+   "link": "https://gavin-chen.top",
+   "avatar": "https://img.0v0.my/2026/10/18/ec5d8da03e8e2.jpg"
+  },
+  {
+   "name": "ichika",
+   "link": "https://ichika.cc",
+   "avatar": "https://img.0v0.my/2026/10/18/dd0d0b66dd526.jpg"
+  },
+  {
+   "name": "Mxne",
+   "link": "https://blog.mxne.cn",
+   "avatar": "https://img.0v0.my/2023/02/05/63df7de56a470.webp"
+  },
+  {
+   "name": "Echo’s blog",
+   "link": "https://www.liveout.cn",
+   "avatar": "https://yy.liveout.cn/photo/photo2.jpg"
+  },
+  {
+   "name": "Rootlex",
+   "link": "https://blog.nalex.top",
+   "avatar": "https://img.0v0.my/2024/09/01/66d3c4770c82a.png"
+  },
+  {
+   "name": "Cisyam",
+   "link": "https://manamn.space",
+   "avatar": "https://img.0v0.my/2026/10/18/3d256416212cd.jpg"
+  },
+  {
+   "name": "铭心石刻",
+   "link": "https://blog.kouseki.cn",
+   "avatar": "https://img.0v0.my/2026/10/18/90efe7955b14c.webp"
+  },
+  {
+   "name": "好软猫",
+   "link": "https://www.haoruanmao.com",
+   "avatar": "https://www.haoruanmao.com/wp-content/themes/CoreNext/static/img/hrm-logo.png"
+  },
+  {
+   "name": "星の野",
+   "link": "https://blog.byer.top",
+   "avatar": "https://img.0v0.my/2023/10/01/6519291503349.jpg"
+  },
+  {
+   "name": "LyShark - 孤风洗剑",
+   "link": "https://www.lyshark.com",
+   "avatar": "https://www.lyshark.com/images/baidu_logo.png"
+  },
+  {
+   "name": "屑殇",
+   "link": "https://jinghuashang.cn",
+   "avatar": "https://img.0v0.my/2026/10/18/54825757fb08c.jpg"
+  },
+  {
+   "name": "竹山一叶",
+   "link": "https://zsyyblog.com",
+   "avatar": "https://img.0v0.my/2026/10/18/ea649834f4b92.jpg"
+  },
+  {
+   "name": "浮云翩迁之间",
+   "link": "https://blognas.hwb0307.com",
+   "avatar": "https://img.0v0.my/2026/10/18/c3c7ede746c55.jpg"
+  },
+  {
+   "name": "召田最帅boy",
+   "link": "https://www.hqxiaozou.top",
+   "avatar": "https://img.0v0.my/2024/09/01/66d3c8004cb06.png"
+  },
+  {
+   "name": "ChenZhen的客栈",
+   "link": "https://www.chenzhen.space",
+   "avatar": "https://img.0v0.my/2026/10/18/4ea114966d2ab.jpg"
+  },
+  {
+   "name": "Ading阿定の小站",
+   "link": "https://saop.cc",
+   "avatar": "https://picbed.saop.cc/Asuna/Asuna1x1.png"
+  },
+  {
+   "name": "Qeem",
+   "link": "http://itstarqeem.space",
+   "avatar": "https://img.0v0.my/2026/10/18/f1e4300c0ca5d.png"
+  },
+  {
+   "name": "夏夜小鹿",
+   "link": "https://blog.xiayexiaolu.top",
+   "avatar": "https://img.0v0.my/2024/09/01/66d3c6b02af6a.png"
+  },
+  {
+   "name": "洛屿的小站",
+   "link": "https://www.drluo.top",
+   "avatar": "https://img.0v0.my/2025/04/26/680c528eb346c.png"
+  },
+  {
+   "name": "浅小兮の梦",
+   "link": "https://zxwlove.xyz",
+   "avatar": "https://img.0v0.my/2026/10/18/17e4a09974c47.jpg"
+  },
+  {
+   "name": "polar-bear～Blog",
+   "link": "https://polar-bear.eu.org",
+   "avatar": "https://img.0v0.my/2026/10/18/12d1657dfd9e3.jpg"
+  },
+  {
+   "name": "Fomalhaut🥝",
+   "link": "https://www.fomal.cc",
+   "avatar": "https://img.0v0.my/2026/10/18/b09aa4d56b54f.jpg"
+  },
+  {
+   "name": "探人间",
+   "link": "https://www.hydsb0.com",
+   "avatar": "https://img.0v0.my/2023/07/10/64abbf448d530.jpg"
+  },
+  {
+   "name": "包子哟",
+   "link": "https://blog.bugjava.cn",
+   "avatar": "https://img.0v0.my/2026/10/18/f661826e912dc.jpg"
+  },
+  {
+   "name": "张时贰",
+   "link": "https://zhsher.cn",
+   "avatar": "https://img.0v0.my/2026/10/18/b6167fd53e10b.jpg"
+  },
+  {
+   "name": "未知之旅",
+   "link": "https://blog.xenosp.cn",
+   "avatar": "https://cravatar.cn/avatar/4EA126708E5063621186D6B5895D2684"
+  },
+  {
+   "name": "空空の思维茶屋",
+   "link": "https://blog.voemp.top",
+   "avatar": "https://img.0v0.my/2026/10/18/dfabc42a3156a.webp"
+  },
+  {
+   "name": "CH0ico",
+   "link": "https://ch0ico.fun",
+   "avatar": "https://img.0v0.my/2024/07/04/6686018f6119e.png"
+  },
+  {
+   "name": "時光",
+   "link": "https://blog.shiguang666.eu.org",
+   "avatar": "https://img.0v0.my/2026/10/18/765cb3f65f703.png"
+  },
+  {
+   "name": "CC康纳百川",
+   "link": "https://blog.ccknbc.cc",
+   "avatar": "https://img.0v0.my/2026/10/18/47fb776c319d8.png"
+  },
+  {
+   "name": "Viper3の小破站",
+   "link": "https://viper3.top",
+   "avatar": "https://img.0v0.my/2026/10/18/2e18a6ff3e70e.jpg"
+  },
+  {
+   "name": "胡桃木实验室",
+   "link": "https://www.htmacg.cn",
+   "avatar": "https://img.0v0.my/2024/09/01/66d3c5b8cb8e8.png"
+  },
+  {
+   "name": "一个 OIer 的个人修养",
+   "link": "https://www.doittomorrow.xyz",
+   "avatar": "https://www.doittomorrow.xyz/favicon.ico"
+  },
+  {
+   "name": "B84F2246 的小站",
+   "link": "https://blog.b84f2246.top",
+   "avatar": "https://img.0v0.my/2026/10/18/63533fa14790d.png"
+  },
+  {
+   "name": "Henry Moreau",
+   "link": "https://blog.henrywhu.cn",
+   "avatar": "https://img.0v0.my/2024/06/28/667e684e0adbe.png"
+  },
+  {
+   "name": "The Blog of Monoceros406",
+   "link": "https://monoceros406.github.io",
+   "avatar": "https://img.0v0.my/2026/10/18/24058a1ea0033.jpg"
+  },
+  {
+   "name": "星辰博客",
+   "link": "https://blog.starchen.top",
+   "avatar": "https://img.0v0.my/2024/11/13/6734250b6aea9.webp"
+  },
+  {
+   "name": "兔兔博客🇨🇳",
+   "link": "https://blog.tutuxka.eu.org",
+   "avatar": "https://img.0v0.my/2025/04/26/680c4ddf8aff9.png"
+  },
+  {
+   "name": "s1rius' blog",
+   "link": "https://s1rius.space",
+   "avatar": "https://img.0v0.my/2026/10/18/d59aff16c9b36.webp"
+  },
+  {
+   "name": "兔子的博客",
+   "link": "https://blog.yujiay.wang",
+   "avatar": "https://img.0v0.my/2026/10/18/4363862d4aab7.png"
+  },
+  {
+   "name": "Ethan",
+   "link": "https://hanlife02.com",
+   "avatar": "https://img.0v0.my/2025/04/26/680c4fc808489.png"
+  },
+  {
+   "name": "青萍叙事",
+   "link": "https://blog.lusyoe.com",
+   "avatar": "https://img.0v0.my/2026/10/18/0774745e94e9d.webp"
+  },
+  {
+   "name": "ZERO开发",
+   "link": "https://www.zerofc.cn",
+   "avatar": "https://img.0v0.my/2026/10/18/df2afaf4bea2c.png"
+  },
+  {
+   "name": "VnYzm的博客",
+   "link": "https://vnyzm.top",
+   "avatar": "https://img.0v0.my/2026/10/18/0308328170b8e.jpg"
+  },
+  {
+   "name": "AirTouchの小站",
+   "link": "https://www.xsl.im",
+   "avatar": "https://img.0v0.my/2026/10/18/219f5f36f8231.webp"
+  },
+  {
+   "name": "Catarium",
+   "link": "https://catarium.me",
+   "avatar": "https://cdn.jsdelivr.net/gh/Eofs791/catpic@main/img/avatar.ico"
+  },
+  {
+   "name": "Ldyer",
+   "link": "https://ldyer.top",
+   "avatar": "https://img.0v0.my/2026/10/18/e6b20cfe2043c.webp"
+  },
+  {
+   "name": "雨雪冰屋",
+   "link": "https://iamyukino.cn",
+   "avatar": "https://iamyukino.cn/favicon.ico"
+  },
+  {
+   "name": "even629’s blog",
+   "link": "https://even629.com",
+   "avatar": "https://img.0v0.my/2026/10/18/e60af03818988.webp"
+  },
+  {
+   "name": "Sanmussh Blog",
+   "link": "https://blog.movcloud.xyz",
+   "avatar": "https://img.0v0.my/2026/10/18/b9204f428ffcf.jpg"
+  },
+  {
+   "name": "rawley",
+   "link": "https://rawley.top",
+   "avatar": "https://rawley.top/upload/avatar.jpg"
+  },
+  {
+   "name": "Secret Blog",
+   "link": "https://secretblog.my.id",
+   "avatar": "https://i.ibb.co.com/tpYBWwXy/shangdi.avif"
+  },
+  {
+   "name": "流川",
+   "link": "https://www.oao.cc",
+   "avatar": "https://img.0v0.my/2026/10/18/ba757e041179d.jpg"
+  },
+  {
+   "name": "小坤哥哥博客",
+   "link": "https://xkbk.cn",
+   "avatar": "https://xkbk.cn/logo.svg"
+  },
+  {
+   "name": "Haven",
+   "link": "https://hizyt.com",
+   "avatar": "https://hizyt.com/uploads/legacy/content/uploadfile/201809/362c1537084329.jpg"
+  },
+  {
+   "name": "Alexander",
+   "link": "https://lanerc.me",
+   "avatar": "https://img.0v0.my/2026/10/19/dace43c1e55b5.png"
+  },
+  {
+   "name": "咸鱼小窝",
+   "link": "https://blog.fishqaq.com",
+   "avatar": "https://img.0v0.my/2026/10/22/ec4fa8963d733.webp"
+  },
+  {
+   "name": "冷汐的杂货铺",
+   "link": "https://lengxiqwq.com",
+   "avatar": "https://img.0v0.my/2026/10/22/645c263841f09.webp"
+  }
+ ]
+}
